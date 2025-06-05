@@ -27,10 +27,10 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
-      <p>{data.site.siteMetadata.description}</p>
+      {/* <p>{data.site.siteMetadata.description}</p> */}
       <nav className={navbar}>
         <Link className={logo} to="/">
-          <h2>My Logo</h2>
+          <h2>SK Blogs</h2>
         </Link>
         <ul className={navLinks}>
           <li className={navLinkItem}>
